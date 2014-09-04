@@ -10,6 +10,20 @@ main{
 	padding: 0.75em;
 }
 
+#footer{
+	background-color: #f2f2f2;
+	padding: 0.5em;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+}
+
+.grey-back{
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	padding: 0.5em;
+}
+
 img{
 	width: 100%;
 }
@@ -43,7 +57,6 @@ figcaption{
 	font-family: arial;
 	font-size: 0.75em;
 	color: #666;
-	background-color: #fcfcfc;
 }
 
 blockquote{
@@ -54,9 +67,6 @@ blockquote p{
 	font-family: georgia;
 }
 
-blockquote footer{
-	float: right;
-}
 
 cite{
 	font-family: georgia;
@@ -64,20 +74,40 @@ cite{
 	color: #666;
 }
 
+/*LISTS*/
+
+li{
+	font-family: arial;
+}
+
 dl{
-	border: 1px solid red;
 	overflow: hidden;
 	/* ^ reminds dl to wrap around its floated children*/
+	font-family: arial;
 }
 
 dt{
 	float: left;
 	clear: left;
 	width: 8em;
+	font-family: arial;
 }
 
 dd{
 	float: left;
 	margin: 0;
 	padding: 0;
+	font-family: arial;
+}
+
+.tags-list{
+	list-style-type: none;
+}
+
+.tags-list li{
+	display: inline;
+	background-color: #e7cad1;
+	border-radius: 10px;
+	border: 1px solid #a22544;
+	padding: 0.25em;
 }
